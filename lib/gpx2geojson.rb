@@ -7,10 +7,6 @@ module Gpx2geojson
     parse_file
   end
 
-#  def self.data
-#    @gpx.read
-#  end
-
   def self.parse_file
     data = @gpx.read
 
@@ -25,9 +21,5 @@ module Gpx2geojson
     geo_json += ']]}}'
     geo_json
   end
-
-#  def self.file_mode
-#    data =~ /trkpt/ ? "//trkpt" : (data =~ /rtept/ ? "//rtept" : "//wpt")
-#  end
 end
 
