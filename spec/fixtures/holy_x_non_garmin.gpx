@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="National Geographic Maps TOPO! 4.x"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <desc>The information contained in this file may not be accurate. Use with caution.</desc>
+        <copyright author="14ers.com">
+            <year>2012</year>
+        </copyright>
+        <link href="http://www.14ers.com">
+            <text>14ers.com</text>
+        </link>
+        <bounds minlat="39.4652079343796" minlon="-106.4814155101776" maxlat="39.4972063302994" maxlon="-106.4658612012863"/>
+    </metadata>
+    <wpt lat="39.4667506217957" lon="-106.4816812276840">
+        <ele>4249.830</ele>
+        <name>SUMMIT</name>
+    </wpt>
+    <wpt lat="39.5005422830582" lon="-106.4331833124161">
+        <ele>3144.630</ele>
+        <name>TH</name>
+    </wpt>
+    <rte>
+        <name>holy2</name>
+        <number>1</number>
+        <rtept lat="39.5002144575119" lon="-106.4329234361649">
+            <ele>3144.320</ele>
+            <time>2014-06-22T15:56:14Z</time>
+            <name>W0</name>
+        </rtept>
+        <rtept lat="39.5000683069229" lon="-106.4331908226013">
+            <ele>3144.630</ele>
+            <time>2014-06-22T15:56:14Z</time>
+            <name>W1</name>
+        </rtept>
+        <rtept lat="39.4999943971634" lon="-106.4337532520294">
+            <ele>3153.770</ele>
+            <time>2014-06-22T15:56:14Z</time>
+            <name>W2</name>
+        </rtept>
+        <rtept lat="39.4998021125793" lon="-106.4342716932297">
+            <ele>3165.350</ele>
+            <time>2014-06-22T15:56:14Z</time>
+            <name>W3</name>
+        </rtept>
+        <rtept lat="39.4994632005692" lon="-106.4346312284470">
+            <ele>3167.490</ele>
+            <time>2014-06-22T15:56:14Z</time>
+            <name>W4</name>
+        </rtept>
+    </rte>
+</gpx>
