@@ -1,6 +1,6 @@
 # Gpx2geojson
 
-TODO: Write a gem description
+This is a _very_ simple tool for converting a GPX file (probably from a handheld GPS device) to a GeoJSON. Your GPX file may have more information than just the actual track (waypoints, for example), but this tool will just return a MultiLinePoint GeoJSON. The kind of thing you might want to load into Leaflet, for example.
 
 ## Installation
 
@@ -17,8 +17,6 @@ Or install it yourself as:
     $ gem install gpx2geojson
 
 ## Usage
-
-This is a _very_ simple tool for converting a GPX file (probably from a handheld GPS device) to a GeoJSON. Your GPX file may have more information than just the actual track (waypoints, for example), but this tool will just return a MultiLinePoint GeoJSON. The kind of thing you might want to load into Leaflet, for example.
 
 To parse a file, open it e.g. `file = File.open(some_file_path.gpx)` and parse with `Gpx2geojson.parse(file)`.  That will return the JSON string, so you may need to parse it again using Ruby's `JSON.parse`.
 
